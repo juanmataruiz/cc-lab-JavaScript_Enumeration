@@ -50,7 +50,7 @@ describe('Cinema', function () {
 
   });
 
-  xit('should be able to check whether all films are over a particular length', function () {
+  it('should be able to check whether all films are over a particular length', function () {
     const actual = cinema.findFilmsOverLength(120);
     const expected = [bladeRunner, blackPanther];
     assert.deepStrictEqual(actual, expected);
